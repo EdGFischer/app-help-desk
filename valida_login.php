@@ -24,7 +24,7 @@ if($usuario_autenticado) {
     $_SESSION['autenticado'] = 'SIM';
 } else {
     $_SESSION['autenticado'] = 'NAO';
-    header('Location: index.php?login=erro0');
+    header('Location: index.php?login=erro');
 }
 /*
 print_r($_POST);
